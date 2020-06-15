@@ -1,0 +1,3 @@
+SQL login crededntials 
+	Login Name : APIapp
+	Pass 	: APIapp
