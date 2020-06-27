@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\learn\\ASP.NETCoreWebAPI\\ASP-WebAPI-\\APIapp\\APIapp.csproj": {}
+    "D:\\learn\\ASP-WebAPI-\\APIapp\\APIapp.csproj": {}
   },
   "projects": {
-    "D:\\learn\\ASP.NETCoreWebAPI\\ASP-WebAPI-\\APIapp\\APIapp.csproj": {
+    "D:\\learn\\ASP-WebAPI-\\APIapp\\APIapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\learn\\ASP.NETCoreWebAPI\\ASP-WebAPI-\\APIapp\\APIapp.csproj",
+        "projectUniqueName": "D:\\learn\\ASP-WebAPI-\\APIapp\\APIapp.csproj",
         "projectName": "APIapp",
-        "projectPath": "D:\\learn\\ASP.NETCoreWebAPI\\ASP-WebAPI-\\APIapp\\APIapp.csproj",
+        "projectPath": "D:\\learn\\ASP-WebAPI-\\APIapp\\APIapp.csproj",
         "packagesPath": "C:\\Users\\vithushan\\.nuget\\packages\\",
-        "outputPath": "D:\\learn\\ASP.NETCoreWebAPI\\ASP-WebAPI-\\APIapp\\obj\\",
+        "outputPath": "D:\\learn\\ASP-WebAPI-\\APIapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vithushan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.5, )"

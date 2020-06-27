@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using APIapp.Data;
+using AutoMapper;
 
 namespace APIapp
 {
@@ -31,6 +32,8 @@ namespace APIapp
             ));
 
             services.AddControllers();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddScoped<IAPIappRepository, SqlAPIappRepo>();
         }

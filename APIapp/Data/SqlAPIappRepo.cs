@@ -13,6 +13,11 @@ namespace APIapp.Data
             this.repository = repository;
         }
 
+        public appCommands CreateCommand(appCommands cmd)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<appCommands> GetAllCommands(){
             return repository.Commands.ToList();
         } 

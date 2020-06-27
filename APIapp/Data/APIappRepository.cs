@@ -7,5 +7,7 @@ namespace APIapp.Data
     {
         IEnumerable<appCommands> GetAllCommands();
         appCommands GetCommandById(int Id);
+
+        appCommands CreateCommand(appCommands cmd);
     }
 }

@@ -19,5 +19,10 @@ namespace APIapp.Data
         public appCommands GetCommandById(int Id){
             return new appCommands{Id=0, How = "Text", Line = "2", Platform = "Linux"};
         }
+
+        public appCommands CreateCommand(appCommands cmd)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
