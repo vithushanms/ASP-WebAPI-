@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using APIapp.Data;
 using AutoMapper;
+using Newtonsoft.Json.Serialization;
 
 namespace APIapp
 {
@@ -31,7 +32,9 @@ namespace APIapp
                 Configuration.GetConnectionString("APIappConnection")
             ));
 
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(s => {
+                s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+            });
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 

@@ -10,6 +10,9 @@ namespace APIapp.Profiles
         public APIappProfile()
         {
             CreateMap<appCommands, APIappControllerRead>();
+            CreateMap<APIappCreateDTO, appCommands>();
+            CreateMap<APIappUpdateDTO, appCommands>();
+            CreateMap<appCommands, APIappUpdateDTO>();
         }
     }
 }

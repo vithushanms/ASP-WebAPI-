@@ -5,9 +5,11 @@ namespace APIapp.Data
 {
     public interface IAPIappRepository
     {
+        bool SaveChanges();
         IEnumerable<appCommands> GetAllCommands();
         appCommands GetCommandById(int Id);
-
-        appCommands CreateCommand(appCommands cmd);
+        void CreateCommand(appCommands cmd);
+        void UpdateCommand(appCommands cmd);
+        void DeleteCommand(appCommands cmd);
     }
 }

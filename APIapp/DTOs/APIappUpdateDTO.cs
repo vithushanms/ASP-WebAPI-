@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace APIapp.DTOs
 {
-    public class APIappCreateDTO
+    public class APIappUpdateDTO
     {
         [Required]
         [MaxLength(250)]

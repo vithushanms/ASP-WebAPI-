@@ -1,5 +1,4 @@
 # ASP-WebAPI-
 
-This application is currently on development stage
+ASP.NET Core API endpoints to do CRUD operation in the DB using EF Core
 
-I am building this to create API endpoint that includes a list for CLI commands in the various platforms such as windows powershell & linux terminal
